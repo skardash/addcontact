@@ -1,0 +1,25 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:orientation="horizontal" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="button1" 
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10px"
+        android:id="@+id/button1button"></Button>
+    <EditText 
+        android:layout_height="wrap_content" 
+        android:id="@+id/firstedittext"
+        android:layout_toRightOf="@id/button1button"
+        android:layout_marginRight="10px"
+        android:layout_width="wrap_content"></EditText>
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/firstedittext"
+        android:text="button2" 
+        android:id="@+id/button2button"></Button>
+</RelativeLayout>
